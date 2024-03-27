@@ -1,0 +1,21 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="JSEqualityComparisonWithCoercion" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="mySeverity" value="OnlySuspicious" />
+    </inspection_tool>
+    <inspection_tool class="JSUnfilteredForInLoop" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="JSUnresolvedFunction" enabled="true" level="ERROR" enabled_by_default="true">
+      <option name="myStrictlyCheckGlobalDefinitions" value="true" />
+    </inspection_tool>
+    <inspection_tool class="JSUnresolvedReference" enabled="true" level="ERROR" enabled_by_default="true">
+      <option name="myStrictlyCheckGlobalDefinitions" value="true" />
+      <option name="myStrictlyCheckProperties" value="false" />
+    </inspection_tool>
+    <inspection_tool class="JSUnresolvedVariable" enabled="true" level="ERROR" enabled_by_default="true">
+      <option name="myStrictlyCheckGlobalDefinitions" value="true" />
+      <option name="myStrictlyCheckProperties" value="false" />
+    </inspection_tool>
+  </profile>
+</component>
