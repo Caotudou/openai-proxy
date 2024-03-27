@@ -39,6 +39,7 @@ export default async function apiHandler(req: NextRequest) {
         let targetUrl = `${hostUrl}${pathname}?${queryParams.toString()}`
         return NextResponse.rewrite(targetUrl)
     }else{
+        // 没有命中
         return NextResponse.next()
     }
 }
